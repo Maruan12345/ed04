@@ -1,5 +1,11 @@
 package org.example;
-
+/**
+ * Mi trabajo
+ * @author  Maruan
+ * @version 1.0
+ * @since  7/03/2024
+ * @see Contacto
+ */
 import java.util.*;
 
 public class Agenda {
