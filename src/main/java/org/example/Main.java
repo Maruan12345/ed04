@@ -18,7 +18,7 @@ public class Main {
         // Imprimir todos los contactos de la agenda.
         System.out.println("Todos los contactos: ");
         for (Contacto c : agendaContactos.getContacts()) {
-            System.out.println(c.getName() + " -> " + c.getPhones());
+            System.out.println(c.getPersona() + " -> " + c.getPhones());
         }
 
         // Añadir un nuevo teléfono a un contacto existente.
@@ -32,7 +32,7 @@ public class Main {
 
         System.out.println("\nDespués de añadir, eliminar y modificar contactos: ");
         for (Contacto c : agendaContactos.getContacts()) {
-            System.out.println(c.getName() + " -> " + c.getPhones());
+            System.out.println(c.getPersona() + " -> " + c.getPhones());
         }
     }
 }
